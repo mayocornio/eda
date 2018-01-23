@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>src/common.h</itemPath>
+      <itemPath>src/database.h</itemPath>
+      <itemPath>src/email.h</itemPath>
+      <itemPath>src/file_operations.h</itemPath>
+      <itemPath>src/folder.h</itemPath>
+      <itemPath>src/menu.h</itemPath>
+      <itemPath>src/utils.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>emailDB/CAFdmR09@mail.gmail.com.txt</itemPath>
+      <itemPath>emailDB/EMconfig.txt</itemPath>
+      <itemPath>emailDB/message1.txt</itemPath>
+      <itemPath>emailDB/message2.txt</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>src/database.c</itemPath>
+      <itemPath>src/email.c</itemPath>
+      <itemPath>src/file_operations.c</itemPath>
+      <itemPath>src/folder.c</itemPath>
+      <itemPath>src/main.c</itemPath>
+      <itemPath>src/menu.c</itemPath>
+      <itemPath>src/utils.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>src</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="emailDB/CAFdmR09@mail.gmail.com.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="emailDB/EMconfig.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="emailDB/message1.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="emailDB/message2.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/database.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/database.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/email.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/email.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/file_operations.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/file_operations.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/folder.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/folder.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/menu.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/menu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="emailDB/CAFdmR09@mail.gmail.com.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="emailDB/EMconfig.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="emailDB/message1.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="emailDB/message2.txt" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/database.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/database.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/email.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/email.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/file_operations.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/file_operations.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/folder.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/folder.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/menu.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/menu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/utils.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
